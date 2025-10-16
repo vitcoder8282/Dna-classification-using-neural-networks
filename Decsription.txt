@@ -1,0 +1,45 @@
+🧬 DNA Sequence Classification using Neural Network (Python + NumPy)
+
+This repository contains a Python project that classifies DNA sequences using a custom-built neural network from scratch. Designed for beginners and enthusiasts in bioinformatics, machine learning, and genomics, this project demonstrates how to process genetic data, encode sequences, and predict their properties using deep learning concepts without relying on heavy frameworks.
+
+🔑 Key Features
+
+One-hot encoding for DNA sequences: Converts A, T, G, C into numerical vectors suitable for neural networks.
+
+Custom neural network implementation: 3-layer feedforward network with ReLU activations in hidden layers and sigmoid in the output.
+
+Dropout regularization: Helps prevent overfitting during training.
+
+Binary classification: Predicts whether a DNA sequence is “Harmful” or “Benign.”
+
+Model persistence: Save and load trained models using pickle.
+
+Interactive testing: Input your own DNA sequences and get predictions with probability scores.
+
+🧰 Tech Stack
+
+Python 3
+
+NumPy
+
+pandas
+
+pickle
+
+⚙️ How it Works
+
+Load a DNA dataset from a CSV file containing a Sequence column.
+
+Encode sequences into numerical format using one-hot encoding.
+
+Train a neural network on the data with forward propagation, loss computation, and backpropagation implemented from scratch.
+
+Predict new sequences interactively or in batch, providing both class labels and probabilities.
+
+💡 Why This Project
+
+Great for understanding how neural networks work under the hood.
+
+Useful for bioinformatics research and genetic data analysis.
+
+Lightweight and dependency-free, making it easy to experiment with and extend.
